@@ -1,0 +1,3222 @@
+{
+  "source_repo": "GNOME/glib",
+  "source_url": "https://github.com/GNOME/glib",
+  "audit_date": "2026-11-13T10:47:52.659155",
+  "scanner_version": "1.3.0",
+  "findings_count": 401,
+  "severity_breakdown": {
+    "HIGH": 397,
+    "CRITICAL": 3,
+    "MEDIUM": 1
+  },
+  "findings": [
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/buffered-input-stream.c",
+      "line": 50
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/buffered-input-stream.c",
+      "line": 56
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/buffered-input-stream.c",
+      "line": 61
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/buffered-input-stream.c",
+      "line": 66
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/buffered-input-stream.c",
+      "line": 71
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/buffered-input-stream.c",
+      "line": 168
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/deprecated/gcompletion.c",
+      "line": 429
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/deprecated/gcompletion.c",
+      "line": 493
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/deprecated/gcompletion.c",
+      "line": 498
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/deprecated/gcompletion.c",
+      "line": 499
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/deprecated/gcompletion.c",
+      "line": 407
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/deprecated/gcompletion.c",
+      "line": 482
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 110
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 167
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 214
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 220
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 270
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 272
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 276
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 324
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 329
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 360
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 381
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 386
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 400
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/gdbus-example-peer.c",
+      "line": 146
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 93
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 295
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 445
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 456
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 481
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 523
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 533
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 72
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 120
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 121
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 144
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 257
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 268
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 381
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/xdgmime/xdgmimeglob.c",
+      "line": 506
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 44
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 53
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 62
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 71
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 80
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 92
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 37
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 46
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 55
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 64
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 73
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/utils-unisolated.c",
+      "line": 75
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 213
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 350
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 372
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 412
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 439
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 458
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 562
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 596
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 201
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/inotify/inotify-path.c",
+      "line": 425
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 41
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 71
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 73
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 101
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 136
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 199
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 224
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 225
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 226
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gdbus-example-watch-proxy.c",
+      "line": 227
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/appmonitor.c",
+      "line": 164
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 177
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 198
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 213
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 54
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 118
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 120
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 177
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/fch_buckets.c",
+      "line": 178
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/buffer_manage.c",
+      "line": 65
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/buffer_manage.c",
+      "line": 18
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/buffer_manage.c",
+      "line": 21
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/buffer_manage.c",
+      "line": 22
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1208
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "gio/glocalfileinfo.c",
+      "line": 324
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1577
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1578
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1604
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1605
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 175
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 413
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 447
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 460
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 512
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 537
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 541
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 549
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 571
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 574
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 612
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 625
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 675
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 700
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 703
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 711
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 733
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 736
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 812
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 815
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 818
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1071
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1079
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1087
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1153
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1372
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1473
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1479
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1530
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1531
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1532
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1588
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1589
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1615
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1616
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1621
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1623
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1680
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1691
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1698
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1712
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1765
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1789
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1792
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1800
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1810
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1955
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 2079
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 2094
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 2118
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 2134
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 2149
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 2164
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/glocalfileinfo.c",
+      "line": 2247
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 166
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 184
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 194
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 324
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 373
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 441
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 496
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 506
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 606
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 659
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 669
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1122
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1143
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1206
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1227
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1241
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1292
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1577
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1578
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1604
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1605
+    },
+    {
+      "id": "C-STACK-001",
+      "name": "Large stack allocation (potential stack overflow)",
+      "severity": "MEDIUM",
+      "cwe": "CWE-770",
+      "file": "gio/glocalfileinfo.c",
+      "line": 1346
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/gapplication-example-open.c",
+      "line": 29
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gsrvtarget.c",
+      "line": 246
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gsrvtarget.c",
+      "line": 247
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/gsrvtarget.c",
+      "line": 89
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/kqueue/kqueue-helper.c",
+      "line": 77
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/kqueue/kqueue-helper.c",
+      "line": 195
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/gmenuexporter.c",
+      "line": 603
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/gmenuexporter.c",
+      "line": 796
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/docs.c",
+      "line": 1658
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gactionmap.c",
+      "line": 251
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "fuzzing/fuzz_key.c",
+      "line": 38
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "fuzzing/fuzz_key.c",
+      "line": 43
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 137
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 317
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 320
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 372
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 422
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 455
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 566
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 719
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 739
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/gdump.c",
+      "line": 748
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/gdump.c",
+      "line": 235
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/bytes.c",
+      "line": 293
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/bytes.c",
+      "line": 311
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/bytes.c",
+      "line": 331
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/bytes.c",
+      "line": 349
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/bytes.c",
+      "line": 399
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/bytes.c",
+      "line": 73
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/tests/bytes.c",
+      "line": 340
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gsubprocess.c",
+      "line": 235
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gsubprocess.c",
+      "line": 1496
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gsubprocess.c",
+      "line": 1933
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gsubprocess.c",
+      "line": 1934
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/tests/dump.c",
+      "line": 97
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/tests/dump.c",
+      "line": 98
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/tests/dump.c",
+      "line": 99
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/tests/dump.c",
+      "line": 129
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/tests/dump.c",
+      "line": 130
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 172
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 308
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 309
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 321
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 410
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 411
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 286
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/gproxyaddressenumerator.c",
+      "line": 389
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 803
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 141
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 190
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 501
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 590
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 594
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 601
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 637
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 669
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 673
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 677
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 682
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 703
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 704
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 705
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 741
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 750
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 778
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 826
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 841
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 865
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 879
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1048
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1087
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1292
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1293
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1327
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1435
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1517
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1682
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1782
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1783
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1784
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1785
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1786
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1787
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1788
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1829
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1830
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1948
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1953
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1955
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1999
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 2025
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 2170
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 2269
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 68
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 71
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 74
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 76
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 730
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 731
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1611
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "gio/tests/desktop-app-info.c",
+      "line": 1811
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 700
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 726
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 732
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 766
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 771
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 801
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3069
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3072
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3080
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3087
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3092
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3099
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3102
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 3975
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 4007
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 4067
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 4074
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 4075
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 4086
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/girparser.c",
+      "line": 4088
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 592
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 597
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 901
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 902
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 903
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1005
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1006
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1030
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1045
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1059
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1076
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1082
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1359
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1537
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1600
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1601
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1633
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1679
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1680
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1681
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1682
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1751
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1771
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1772
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1838
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1849
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1916
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1917
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1989
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1990
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1991
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 1992
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2067
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2068
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2069
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2070
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2071
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2083
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2085
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2087
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2089
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2172
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2176
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2479
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2483
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2583
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2630
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2723
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2788
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2803
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2817
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2821
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2893
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2910
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2911
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2915
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2916
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2967
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2968
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2969
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2970
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 2971
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/girparser.c",
+      "line": 3407
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/gthash.c",
+      "line": 81
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/gthash.c",
+      "line": 111
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "fuzzing/fuzz_bookmark.c",
+      "line": 32
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 330
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 510
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 529
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 41
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 171
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 172
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 316
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 363
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 474
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 480
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 522
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 562
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 563
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 26
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 82
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 141
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 143
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 146
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 181
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 183
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 330
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 505
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 510
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 518
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "girepository/cmph/bmz8.c",
+      "line": 529
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "glib/gvariant.h",
+      "line": 107
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 49
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 51
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 180
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 208
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 238
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 375
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 744
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/gmem.c",
+      "line": 773
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 100
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 133
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 171
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 319
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 344
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 371
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 410
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 470
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 493
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "glib/gmem.c",
+      "line": 541
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/642026.c",
+      "line": 90
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "glib/tests/642026.c",
+      "line": 92
+    }
+  ]
+}
